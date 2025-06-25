@@ -1,0 +1,67 @@
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 40px;
+  background : linear-gradient(to right, orange 50%, deeppink 50% );
+  color: white ;
+  
+}
+
+/* Tighter and smaller social icons */
+.icons i {
+  margin-right: 6px;
+  font-size: 13px;
+  cursor: pointer;
+}
+
+/* Align contact section to center with tight spacing */
+.contact {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+/* Adjust divider spacing */
+.divider {
+  margin: 0 5px;
+  color: white;
+}
+
+/* Style for button */
+.callback button {
+  background-color: white;
+  color: #d94ea3;
+  border: 1px solid #fff;
+  padding: 4px 10px;
+  font-size: 12px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.main-menu {
+  background-color: #fff;
+  padding: 12px 0;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+.main-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  gap: 25px;
+}
+
+.main-menu ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.main-menu ul li a:hover {
+  color: #ff69b4;
+}
